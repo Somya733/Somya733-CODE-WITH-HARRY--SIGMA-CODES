@@ -1,0 +1,21 @@
+/* element selector  */
+div {
+  background-color: blue;
+}
+
+/* class selecctor  */
+.green {
+  color: aqua;
+  background-color: rgb(18, 18, 11);
+}
+/* id selectr  */
+#red {
+  color: red;
+}
+/* pseudo selector  */
+a:hover {
+  color: aqua;
+}
+a:active {
+  color: red;
+}
