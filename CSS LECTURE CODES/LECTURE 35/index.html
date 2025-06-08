@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More on selectors</title>
+
+    <style>
+      /* .box:first-child{
+        background-color: rgb(72, 159, 72);
+      } */
+
+      .boxes::before {
+        content: "I am a good boy ";
+        color: blue;
+      }
+      .boxes::after {
+        content: "I am also a good boy for her";
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boxes">
+      <div class="box">Hey i am a box </div>
+      <div class="box">Hey i am also a box </div>
+      <div class="box">hey i am also a box</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+}
+
+.container {
+  max-width: 90vw;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  /* position: relative; */
+}
+
+.navcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #222;
+  border-radius: 8px;
+  position: sticky;
+  top: 0;
+}
+
+.navheading a {
+  color: #fff;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: color 0.2s;
+}
+
+.navheading a:hover {
+  color: #ff9800;
+}
+
+.navlist {
+  display: flex;
+  gap: 30px;
+}
+
+.navlist li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 8px 18px;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.navlist li a:hover {
+  background: #ff9800;
+  color: #222;
+}
+.content {
+  display: flex;
+}
+.content2 {
+  display: flex;
+}
+.box {
+  height: 400px;
+  width: 400px;
+  background: #ff9800;
+  margin: 20px auto;
+  border-radius: 10px;
+  text-align: center;
+}
+.para {
+  height: 100px;
+  width: 60vw;
+  background-color: grey;
+  margin: 20px auto;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.chatbot {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 2rem;
+  position: fixed;
+  bottom: 60px;
+  right: 100px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+ 
+}
+.chatbot:hover {
+  background: #ff9800;
+  color: #fff;
+}
+.footer{
+    text-align: center;
+    padding: 20px ;      
+    background: #222;
+    color: #fff;
+    border-radius: 8px;
+    margin: 20px auto;
+    position: relative;
+    bottom: 0;
+    width: 70vw;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.08);
+    font-size: 1rem;
+}
